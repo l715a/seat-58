@@ -1,0 +1,18 @@
+.blockquote {
+    background-color: var(--overlay-background-color);
+    padding: 1em;
+}
+.blockquote blockquote {
+margin-left: 1em;
+margin-right: 0;
+font-weight: 700;
+font-size: 1.5em;
+}
+.blockquote blockquote::after {
+content: "";
+display: block;
+position: relative;
+top: 0.25em;
+width: 5pc;
+border-bottom: 2px solid var(--color-yellow);
+}
